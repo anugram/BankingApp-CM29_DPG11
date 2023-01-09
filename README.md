@@ -15,10 +15,10 @@ This project will let you
 * On Linux (Ubuntu 20.04 LTS)
   * PowerShell
   * Git
-  ** If not already installed
-  ```
-  sudo apt install git
-  ```
+    ** If not already installed
+    ```
+    sudo apt install git
+    ```
   * Docker
 ### Network Requirements
 Below ports need to be opened if firewall is there
