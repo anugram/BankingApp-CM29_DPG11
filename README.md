@@ -65,7 +65,11 @@ $counter = "suffix"
 #### 6) Deploying and running demo
 We are all set now, run the below command to deploy the docker containers that holds the demo application
 ```
+# On Windows
 .\deploy-demo-win-ps.ps1
+
+# On Ubuntu
+pwsh pwsh deploy-demo-win-ps-71.ps1
 ```
 Once the script execution completes, open the demo using the URL -
 ```
