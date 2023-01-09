@@ -14,12 +14,14 @@ This project will let you
   * Docker Desktop
 * On Linux (Ubuntu 20.04 LTS)
   * PowerShell
+    * Follow instructions at https://learn.microsoft.com/en-us/powershell/scripting/install/install-ubuntu?view=powershell-7.3  
   * Git
     * If not already installed
       ```
       sudo apt install git
       ```
   * Docker
+    * Follow instructions at https://docs.docker.com/engine/install/ubuntu/ 
 ### Network Requirements
 Below ports need to be opened if firewall is there
 <kbd><img src="https://user-images.githubusercontent.com/111074839/211354811-4f671792-c0ee-4515-8040-e56177c77618.png"></kbd>
