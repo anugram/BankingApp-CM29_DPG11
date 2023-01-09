@@ -38,7 +38,7 @@ git clone https://github.com/anugram/BankingApp-CM29_DPG11.git
 #### 3) Install required PowerShell modules 
 Install YQ "YAML Parser" utility based on host OS (example Ubuntu)
 ```
-sudo apt install yq -y
+sudo snap install yq
 ```
 
 
