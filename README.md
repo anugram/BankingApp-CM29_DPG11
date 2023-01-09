@@ -4,6 +4,9 @@ This project will let you
 * Deploy a fully functional app including ReactJs based frontend, SpringBoot based REST API backend, and MongoDB based data persistence all within a single docker deployment
 * Using a PowerShell script to automate all the configurations needed on Thales CipherTrust Manager to rub this demo
 
+## Architecture
+<kbd><img src="https://user-images.githubusercontent.com/111074839/189827400-3377df49-b028-4f32-bca3-087ce61fb0c4.png"></kbd>
+
 ## Getting Started
 ### Prerequisites
 * On Windows
@@ -12,13 +15,14 @@ This project will let you
 * On Linux (Ubuntu 20.04 LTS)
   * PowerShell
   * Git
+  ** If not already installed
+  ```
+  sudo apt install git
+  ```
   * Docker
 ### Network Requirements
 Below ports need to be opened if firewall is there
 <kbd><img src="https://user-images.githubusercontent.com/111074839/211354811-4f671792-c0ee-4515-8040-e56177c77618.png"></kbd>
-
-### Architecture
-![image](https://user-images.githubusercontent.com/111074839/189827400-3377df49-b028-4f32-bca3-087ce61fb0c4.png)
 ### Quickstart
 #### 1) Deploy Ciphertrust Manager (CM) community edition (Always Free)
 To deploy Ciphertrust Manager, follow the link https://ciphertrust.io/ 
