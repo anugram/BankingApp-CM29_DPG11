@@ -3,6 +3,7 @@ $password = "ChangeIt!"
 $kms = "1.1.1.1"
 $counter = "demo"
 
+Install-Module -Name powershell-yaml -RequiredVersion 0.4.2
 Import-Module powershell-yaml
 
 Write-Output "-----------------------------------------------------------------"
