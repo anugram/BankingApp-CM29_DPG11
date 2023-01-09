@@ -10,7 +10,7 @@ This project will let you
 ## Getting Started
 ### Prerequisites
 * On Windows
-  * PowerShell >3
+  * PowerShell > 3.x (recommended PowerShel 7.3.0)
   * Docker Desktop
 * On Linux (Ubuntu 20.04 LTS)
   * PowerShell
