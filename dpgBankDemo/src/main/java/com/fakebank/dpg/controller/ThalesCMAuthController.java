@@ -60,10 +60,6 @@ public class ThalesCMAuthController {
 		String cmUser = System.getenv("CM_USERNAME");
 		String cmUserPwd = System.getenv("CM_PASSWORD");
 		String cmUserSetId = System.getenv("CM_USER_SET_ID");
-		//cmUrl="https://20.102.80.224";
-		//cmUser="admin";
-		//cmUserPwd="KeySecure01!";
-		//cmUserSetId="97cb4c75-d674-47eb-9349-b97c8e62092b";
 		
 		//Acquire JWT from CM
 		CMCreateTokenBean tokenRequest = new CMCreateTokenBean("password", cmUser, cmUserPwd);
